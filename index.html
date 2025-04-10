@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Data Validation & Analysis</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="dashboard.html">AI Chat System</a>
+      <!-- ... -->
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h2>Data Validation & Analysis</h2>
+    <hr />
+
+    <div class="row">
+      <!-- Gap Analysis -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5>Gap Analysis</h5>
+            <p>Identify missing or inconsistent data in your uploads.</p>
+            <button class="btn btn-primary">Run Gap Analysis</button>
+          </div>
+        </div>
+      </div>
+      <!-- Bulk Matching -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5>Bulk Matching</h5>
+            <p>Match large volumes of data efficiently.</p>
+            <button class="btn btn-primary">Bulk Match</button>
+          </div>
+        </div>
+      </div>
+      <!-- Market Intelligence -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5>Market Intelligence</h5>
+            <p>Generate insights and forecasts from extracted data.</p>
+            <button class="btn btn-primary">Generate Insights</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Validation Table -->
+    <h4>Data Validation Results</h4>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Record ID</th>
+          <th>Field</th>
+          <th>Value</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Example row -->
+        <tr>
+          <td>123</td>
+          <td>Email</td>
+          <td>test@example.com</td>
+          <td>Valid</td>
+        </tr>
+        <tr>
+          <td>124</td>
+          <td>Phone</td>
+          <td>555-1234-567</td>
+          <td>Invalid</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
